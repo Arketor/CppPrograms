@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+void fun(int &a)
+{
+    cout<<a<<endl;
+    a+=111;
+    cout<<a<<endl;
+}
+int main()
+{
+    int x=10;
+    fun(x);
+    cout<<x<<endl;
+}
